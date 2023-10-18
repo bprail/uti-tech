@@ -1,0 +1,294 @@
+Internal Tech Name, Tier, Area, Category, Prerequisites, Starting Tech, Faction, Unlock Year
+"Nanite Tubing", 2, engineering, materials, , no, -1
+"Antimatter Payloads", 3, engineering, materials, , no, -1
+"Dual Field Cases", 2, engineering, propulsion, , no, -1
+"Relativity Accelerators", 3, engineering, propulsion, "Dual Field Cases", no, -1
+"Plasma Charges", 0, engineering, materials, , yes, -1
+"Metreon Particle Stabilization", 2, engineering, materials, "Plasma Charges", no, -1
+"Tricobalt Distortion Analysis", 3, engineering, materials, "Metreon Particle Stabilization", no, -1
+"Tritanium Hull Plating", 0, engineering, materials, , yes, -1
+"Duranium Hull Lining", 2, engineering, materials, "Tritanium Hull Plating", no, -1
+"Tetraburnium Hull Retrofitting", 3, engineering, materials, "Duranium Hull Lining", no, -1
+"Neutronium Hull Plating", 4, engineering, materials, "Tetraburnium Hull Retrofitting", no, -1
+"Improved Plasma Storage", 0, engineering, materials, , yes, -1
+"Modular Reactors", 2, engineering, materials, "Improved Plasma Storage", no, -1
+"Antimatter Batteries", 4, engineering, materials, "Modular Reactors", no, -1
+"Thrust Regenerators", 1, engineering, propulsion, , no, -1
+"G-Reducers", 4, engineering, propulsion, "Thrust Regenerators", no, -1
+"Electro-Plasma Propulsion", 0, engineering, propulsion, , yes, -1
+"Improved Energy Production", 1, engineering, propulsion, "Electro-Plasma Propulsion", no, -1
+"Twin-Engine Retrofit", 3, engineering, propulsion, "Improved Energy Production", no, -1
+"Quark Particle Stabilization", 4, engineering, propulsion, "Twin-Engine Retrofit", no, -1
+"Mineral Ore Refining", 1, engineering, materials, , no, -1
+"Mineral Refining Safety Protocols", 2, engineering, materials, "Mineral Ore Refining", no, -1
+"Superior Alloys", 0, engineering, industry, , yes, -1
+"Streamlined Alloys", 1, engineering, industry, "Superior Alloys", no, -1
+"Optimized Alloys", 3, engineering, industry, "Streamlined Alloys", no, -1
+"Improved Matter-Energy Conversion", 1, engineering, industry, "Superior Alloys", no, -1
+"Advanced Matter-Energy Conversion", 3, engineering, industry, "Improved Matter-Energy Conversion", no, -1
+"Industrial Chain-Linking", 3, engineering, industry, "Streamlined Alloys", no, -1
+"Dilithium Filtration System", 2, engineering, industry, , no, -1
+"Tetryon Filtration System", 2, engineering, industry, , no, -1
+"Graviton Filtration System", 3, engineering, industry, , no, -1
+"Nanite Filtration System", 3, engineering, industry, , no, -1
+"Dilithium Extraction", 0, engineering, industry, , yes, -1
+"Tetryon Extraction", 0, engineering, industry, , yes, -1
+"Maintenance Schedules", 3, engineering, materials, , no, -1
+"Quantum Encryption", 4, engineering, materials, , no, -1
+"Cryo-Fracking", 1, engineering, industry, , no, -1
+"Starbase Shipyards", 0, engineering, propulsion, , yes, -1
+"Starbase Strategic Commands", 0, engineering, propulsion, , yes, -1
+"Starbase Energy Reserves", 1, engineering, industry, "Plasma Turbines", no, -1
+"Celestial Holo-Planning", 1, engineering, industry, , no, -1
+"Integrated Infrastructures", 2, engineering, industry, "Celestial Holo-Planning", no, -1
+"Shipyard Overhaul", 1, engineering, voidcraft, , no, -1
+"Micro-Replaceable Parts", 3, engineering, voidcraft, "Shipyard Overhaul", no, -1
+"Self-Repairing Mechanisms", 5, engineering, voidcraft, "Micro-Replaceable Parts", no, -1
+"Automated Construction", 1, engineering, industry, , no, -1
+"Verdant Cities", 2, engineering, industry, "Automated Construction", no, -1
+"Cloaked Mines", 4, engineering, propulsion, "Mine Patterns", no, -1
+"Escape Pods", 1, engineering, voidcraft, , no, -1
+"Improved Dilithium Mining I", 2, engineering, materials, , no, -1
+"Improved Dilithium Mining II", 3, engineering, materials, "Improved Dilithium Mining I", no, -1
+"Improved Dilithium Mining III", 4, engineering, materials, "Improved Dilithium Mining II", no, -1
+"Quantum Stabilization I", 2, engineering, materials, , no, -1
+"Quantum Stabilization II", 3, engineering, materials, "Quantum Stabilization I", no, -1
+"Quantum Stabilization III", 4, engineering, materials, "Quantum Stabilization II", no, -1
+"Advanced Warp Nacelle", 2, engineering, propulsion, , no, -1
+"Nadion Weaponization", 0, physics, particles, , yes, -1
+"Phaser Theory", 1, physics, particles, "Nadion Weaponization", no, -1
+"Phaser Chain-Linking", 2, physics, particles, "Phaser Theory", no, -1
+"Purified Emitter Crystals", 3, physics, particles, "Phaser Chain-Linking", no, -1
+"Emitter Matrices", 4, physics, particles, "Purified Emitter Crystals", no, -1
+"Tactical Plasmas", 1, physics, field_manipulation, , no, -1
+"Gravity Looming", 3, physics, field_manipulation, "Tactical Plasmas", no, -1
+"Multiple Independent Plasmas", 4, physics, field_manipulation, "Gravity Looming", no, -1
+"Plasma Lancing", 3, physics, particles, , no, -1
+"Dimensional Deletion", 4, physics, particles, "Plasma Lancing", no, -1
+"Plasma Storage Coils", 2, physics, field_manipulation, , no, -1
+"Subspace Disruption", 3, physics, field_manipulation, "Plasma Storage Coils", no, -1
+"Temporal Disruption", 4, physics, field_manipulation, "Subspace Disruption", no, -1
+"Heavy Phasers", 2, physics, particles, , no, -1
+"Emitter Quincunxes", 4, physics, particles, "Heavy Phasers", no, -1
+"Reflection Sensors", 0, physics, particles, , yes, -1
+"Gravitational Targeting", 2, physics, particles, "Reflection Sensors", no, -1
+"Predictive Point-Defense", 4, physics, particles, "Gravitational Targeting", no, -1
+"Dimensional Warfare", 3, physics, field_manipulation, , no, -1
+"Corrosion Beams", 1, physics, particles, , no, -1
+"Autocannon Targeting", 1, physics, particles, , no, -1
+"Subspace Targeting", 2, physics, particles, "Autocannon Targeting", no, -1
+"Autocannon Barrels", 3, physics, particles, "Subspace Targeting", no, -1
+"Autocannon Mounts", 4, physics, particles, "Autocannon Barrels", no, -1
+"Molecular Polishing", 5, physics, particles, "Autocannon Mounts", no, -1
+"Burst Phasers", 0, physics, particles, , yes, -1
+"Thermal Deflectors", 2, physics, particles, "Burst Phasers", no, -1
+"Conical Phasers", 3, physics, particles, "Thermal Deflectors", no, -1
+"Phaser Heat Sinks", 4, physics, particles, "Conical Phasers", no, -1
+"Helical Arrays", 5, physics, particles, "Phaser Heat Sinks", no, -1
+"Concentrated Plasmas", 2, physics, field_manipulation, , no, -1
+"Continuous Plasmas", 3, physics, field_manipulation, "Concentrated Plasmas", no, -1
+"Inexorable Plasmas", 4, physics, field_manipulation, "Continuous Plasmas", no, -1
+"Shield Frequency Bypassing", 2, physics, field_manipulation, , no, -1
+"Anti-Graviton Emitters", 3, physics, field_manipulation, "Shield Frequency Bypassing", no, -1
+"Anti-Graviton Sprays", 4, physics, field_manipulation, "Anti-Graviton Emitters", no, -1
+"Interstellar Defense Tactics", 0, physics, field_manipulation, , yes, -1
+"Shield Harmonics", 1, physics, field_manipulation, "Interstellar Defense Tactics", no, -1
+"Subspace Frequencies Monitor", 2, physics, field_manipulation, "Shield Harmonics", no, -1
+"Empowered Deflector Shields", 4, physics, field_manipulation, "Subspace Frequencies Monitor", no, -1
+"Subspace Field Stacking", 5, physics, field_manipulation, "Empowered Deflector Shields", no, -1
+"Energy Field Harmonics", 2, physics, field_manipulation, , no, -1
+"Artificial Intelligence Software", 1, physics, computing, , no, -1
+"Probe Logs", 0, physics, computing, , yes, -1
+"Subspace Probe Logs", 1, physics, computing, "Probe Logs", no, -1
+"Sensor Counter-Interference Protocol", 3, physics, computing, "Subspace Probe Logs", no, -1
+"Tachyon Detection Theory", 4, physics, computing, "Sensor Counter-Interference Protocol", no, -1
+"Duotronic Software", 0, physics, computing, , yes, -1
+"Isolinear Circuitry", 2, physics, computing, "Duotronic Software", no, -1
+"Bioneural Computing Architecture", 3, physics, computing, "Isolinear Circuitry", no, -1
+"Warp Core Engineering", 0, physics, field_manipulation, , yes, -1
+"Dilithium Crystal Chambers", 2, physics, field_manipulation, "Warp Core Engineering", no, -1
+"Antimatter Injectors", 1, physics, field_manipulation, "Dilithium Crystal Chambers", no, -1
+"Lockdown Protocols", 0, physics, computing, , yes, -1
+"Plasma Site Cleansing", 2, physics, computing, "Lockdown Protocols", no, -1
+"Subterranean Laboratories", 4, physics, computing, "Plasma Site Cleansing", no, -1
+"Global Energy Grids", 1, physics, field_manipulation, , no, -1
+"Solar Conduits", 2, physics, field_manipulation, "Global Energy Grids", no, -1
+"Planetary Shielding", 3, physics, field_manipulation, , no, -1
+"Spaceborne Defense Systems", 0, physics, computing, , yes, -1
+"Singularity Chart", 3, physics, field_manipulation, , no, -1
+"Research AI", 1, physics, computing, , no, -1
+"Knowledge Repository", 2, physics, computing, "Research AI", no, -1
+"Multi-Disciplinary Databases", 3, physics, computing, "Knowledge Repository", no, -1
+"Charting Scanners", 1, physics, computing, , no, -1
+"Star Chart", 3, physics, field_manipulation, , no, -1
+"Predictive Charting", 4, physics, field_manipulation, "Star Chart", no, -1
+"Quantum Chart", 5, physics, field_manipulation, "Predictive Charting", no, -1
+"Warp Buoys", 3, physics, field_manipulation, , no, -1
+"Warp Beacons", 4, physics, field_manipulation, "Warp Buoys", no, -1
+"Subspace Warp Markers", 5, physics, field_manipulation, "Warp Beacons", no, -1
+"Singularity Theorem I", 3, physics, field_manipulation, , no, -1
+"Singularity Theorem II", 4, physics, field_manipulation, "Singularity Theorem I", no, -1
+"Singularity Theorem III", 5, physics, field_manipulation, "Singularity Theorem II", no, -1
+"Particle Funnel I", 3, physics, field_manipulation, , no, -1
+"Particle Funnel II", 4, physics, field_manipulation, "Particle Funnel I", no, -1
+"Particle Funnel III", 5, physics, field_manipulation, "Particle Funnel II", no, -1
+"Shield Optimization", @repeatableTechTier, physics, particles, "Subspace Field Stacking", False, -1
+"Weapons Optimization", @repeatableTechTier, physics, field_manipulation, "Helical Arrays", False, -1
+"Output Optimization", @repeatableTechTier, physics, computing, "Multi-Disciplinary Databases", False, -1
+"Hull Optimization", @repeatableTechTier, engineering, materials, "Neutronium Hull Plating", False, -1
+"Base Resource Production Improvement", @repeatableTechTier, engineering, industry, "Bio-Adaptation", False, -1
+"Advanced Resource Production Improvement", @repeatableTechTier, engineering, industry, "Advanced Matter-Energy Conversion", False, -1
+"Improved Healthcare", @repeatableTechTier, society, biology, "Starscrapers", False, -1
+"Improved Combat Tactics", @repeatableTechTier, society, military_theory, "Starscrapers", False, -1
+"Improved Leadership", @repeatableTechTier, society, military_theory, "Coordination Subsystem", False, -1
+"DOS Protocols", 3, society, military_theory, , no, -1
+"Pre-Fabricated Architecture", 0, society, statecraft, , yes, -1
+"Sustainable Architecture", 2, society, statecraft, "Pre-Fabricated Architecture", no, -1
+"Impermeable Compounds", 3, society, statecraft, "Sustainable Architecture", no, -1
+"Starscrapers", 5, society, statecraft, "Impermeable Compounds", no, -1
+"Historical Verisimilitude", 0, society, statecraft, , yes, -1
+"Intergalactic Culture", 1, society, statecraft, "Historical Verisimilitude", no, -1
+"Interdisciplinary Protocols", 3, society, statecraft, "Intergalactic Culture", no, -1
+"Quantum Databanks", 2, society, statecraft, , no, -1
+"Work-Life Balance", 3, society, statecraft, "Quantum Databanks", no, -1
+"Hydroponics", 1, society, biology, "Work-Life Balance", no, -1
+"Holographic Reprogramming", 0, society, statecraft, , yes, -1
+"Electroforensic Laboratories", 3, society, statecraft, "Subterranean Laboratories", no, -1
+"Bio-Crop Fundamentals", 1, society, biology, , no, -1
+"Advanced Bio-Crop Theory", 3, society, biology, "Bio-Crop Fundamentals", no, -1
+"Biomedical Research", 1, society, biology, , no, -1
+"Advanced Biomedical Research", 2, society, biology, "Biomedical Research", no, -1
+"War-Time Archives", 2, society, statecraft, , no, -1
+"Military Holo-Training", 0, society, military_theory, , yes, -1
+"Better Basic Training", 2, society, military_theory, "Military Holo-Training", no, -1
+"Galactic Logistics Chains", 0, society, statecraft, , yes, -1
+"Sustainable Trade", 3, society, statecraft, "Galactic Logistics Chains", no, -1
+"Terraforming Theory", 4, society, new_worlds, , no, -1
+"Automated Living Spaces", 1, society, statecraft, , no, -1
+"Spacedocking Infrastructure", 0, society, new_worlds, , yes, -1
+"Simulator Holodecks", 2, society, statecraft, , no, -1
+"Black Ops Scouting", 2, society, statecraft, , no, -1
+"Surface-to-Space Commerce", 4, society, statecraft, , no, -1
+"Starbase Trade Protocols", 0, society, statecraft, , yes, -1
+"Environment Conditioning", 2, society, biology, , no, -1
+"Planetary Simulations", 3, society, biology, "Environment Conditioning", no, -1
+"Bio-Adaptation", 4, society, biology, "Planetary Simulations", no, -1
+"Millitary Doctrine", 2, society, military_theory, , no, -1
+"Combined Arms", 3, society, military_theory, "Millitary Doctrine", no, -1
+"Tactical Deployments", 5, society, military_theory, "Combined Arms", no, -1
+"Hydropods", 2, society, new_worlds, , no, -1
+"Thermal Regulator", 2, society, new_worlds, , no, -1
+"Differential Magnetometer", 2, society, new_worlds, , no, -1
+"Orientine Acid", 2, society, new_worlds, , no, -1
+"Heavy Scanner", 2, society, new_worlds, , no, -1
+"Planetary Detection Grid", 3, society, new_worlds, "Hydropods", no, -1
+"Planetary Cutter Beam", 3, society, new_worlds, "Thermal Regulator", no, -1
+"Chemical Missile", 3, society, new_worlds, "Differential Magnetometer", no, -1
+"Chloraxine Pesticide", 3, society, new_worlds, "Orientine Acid", no, -1
+"Arithrazine Injections", 3, society, new_worlds, "Heavy Scanner", no, -1
+"Social Reform", 3, society, statecraft, , no, -1
+"Justice Reform", 5, society, statecraft, "Social Reform", no, -1
+"Ergonomic Writing Implements", 1, society, statecraft, , no, -1
+"Panoptic Cubicles", 3, society, statecraft, "Ergonomic Writing Implements", no, -1
+"Enhanced Career Development", 2, society, statecraft, , no, -1
+"Mandatory Vacations", 3, society, statecraft, "Enhanced Career Development", no, -1
+"Non-Toxic Workplaces", 4, society, statecraft, "Mandatory Vacations", no, -1
+"Fleet Tactics", 1, society, military_theory, , no, -1
+"Advanced Fleet Tactics", 3, society, military_theory, "Fleet Tactics", no, -1
+"Tactical Comms System", 4, society, military_theory, "Advanced Fleet Tactics", no, -1
+"Coordination Subsystem", 5, society, military_theory, "Tactical Comms System", no, -1
+"Adaptive Tests", 1, society, statecraft, , no, -1
+"Multidisciplinary Campuses", 2, society, statecraft, "Adaptive Tests", no, -1
+"Academic Dissemination", 3, society, statecraft, "Multidisciplinary Campuses", no, -1
+"Trustworthy Politicians", 3, society, statecraft, "Party Diversification", no, -1
+"Spacefaring Recruitment", 1, society, military_theory, , no, -1
+"Miltary Records", 2, society, military_theory, "Spacefaring Recruitment", no, -1
+"Academy Annexes", 3, society, military_theory, "Miltary Records", no, -1
+"Recruitment Outreach Programs", 1, society, military_theory, , no, -1
+"Field Promotion Protocols", 2, society, military_theory, "Recruitment Outreach Programs", no, -1
+"Holo-Simulations", 3, society, military_theory, "Field Promotion Protocols", no, -1
+"Black Ops Training", 1, society, military_theory, , no, -1
+"Neural Conditioning Studies", 2, society, military_theory, "Black Ops Training", no, -1
+"Holo-Surveillance", 3, society, military_theory, "Neural Conditioning Studies", no, -1
+"Neutron Degeneration", 0, physics, field_manipulation, , yes, -1
+"Micro-Singularities", 2, physics, field_manipulation, "Neutron Degeneration", no, -1
+"Superior Radiation Shielding", 4, physics, field_manipulation, "Micro-Singularities", no, -1
+"Volcanic Infrastructure", 0, society, statecraft, , yes, -1
+"Improved Volcanic Infrastructure", 1, society, statecraft, "Volcanic Infrastructure", no, -1
+"Rite of Devotion", 3, society, statecraft, , no, -1
+"Hologrid Configuration", 3, society, statecraft, , no, -1
+"Automated Charting Scanners", 0, physics, computing, , yes, -1
+"Terraforming", 3, society, new_worlds, , no, -1
+"Advanced Terraforming", 4, society, new_worlds, , no, -1
+"Cloaking Device", 1, physics, field_manipulation, , no, -1
+"Highway Fluctuations Scanner", 1, physics, computing, , no, -1
+"Highway Stabilization Field", 2, physics, computing, "Highway Fluctuations Scanner", no, -1
+tech_corvette_unlock, 0, engineering, voidcraft, , yes, -1
+"Defiant Schematics", 0, engineering, voidcraft, , no, -1
+tech_destroyer_unlock, 2, engineering, voidcraft, tech_corvette_unlock, no, 18
+tech_cruiser_unlock, 3, engineering, voidcraft, tech_destroyer_unlock, no, 58
+tech_battleship_unlock, 4, engineering, voidcraft, tech_cruiser_unlock, no, 88
+tech_titan_unlock, 5, engineering, voidcraft, tech_battleship_unlock, no, 118
+"Standarized "Corvette" Schematics", 1, engineering, voidcraft, tech_corvette_unlock, no, -1
+"Standarized "Destroyer" Schematics", 2, engineering, voidcraft, tech_destroyer_unlock, no, -1
+"Standarized "Cruiser" Schematics", 3, engineering, voidcraft, tech_cruiser_unlock, no, -1
+"Standarized "Battleship" Schematics", 4, engineering, voidcraft, tech_battleship_unlock, no, -1
+"Standarized "Titan" Schematics", 5, engineering, voidcraft, tech_titan_unlock, no, -1
+"Mine Placement", 1, engineering, materials, , no, -1
+"Mine Patterns", 3, engineering, propulsion, "Mine Placement", no, -1
+"Starport Construction", 0, engineering, voidcraft, , yes, -1
+"Advanced Starbase Construction", 2, engineering, voidcraft, "Starport Construction", no, 40
+"Star Fortress Construction", 4, engineering, voidcraft, "Advanced Starbase Construction", no, 100
+"Asteroid Cracking", 1, engineering, industry, , no, -1
+"Nanite Chain Drills", 2, engineering, industry, "Asteroid Cracking", no, -1
+"Gaseous Scores", 4, engineering, industry, "Nanite Chain Drills", no, -1
+"Deuterium Refining Protocols", 1, engineering, industry, , no, -1
+"Deuterium Cooling Protocols", 2, engineering, industry, "Deuterium Refining Protocols", no, -1
+"Deuterium Storage Protocols", 4, engineering, industry, "Deuterium Cooling Protocols", no, -1
+"Artificial Gravity Studies", 1, physics, computing, , no, -1
+"Astrophysics Almanac", 2, physics, computing, "Artificial Gravity Studies", no, -1
+"Hazardous Pathogen Studies", 3, physics, computing, "Astrophysics Almanac", no, -1
+"Plasma Turbines", 1, physics, field_manipulation, , no, -1
+"Overload Shielding", 2, physics, field_manipulation, "Plasma Turbines", no, -1
+"Lightning Transfers", 4, physics, field_manipulation, "Overload Shielding", no, -1
+"Genetic Sequencing", 1, society, biology, , no, -1
+"DNA Decontamination", 2, society, biology, "Genetic Sequencing", no, -1
+"DNA Resequencing", 3, society, biology, "DNA Decontamination", no, -1
+"Interplanetary Study Programs", 1, society, statecraft, , no, -1
+"Galactic Cultural Exchange", 2, society, statecraft, "Interplanetary Study Programs", no, -1
+"Diplomacy Reform", 4, society, statecraft, "Galactic Cultural Exchange", no, -1
+"Diplomatic Postures", 2, society, new_worlds, , no, -1
+"Diplomatic Protocols", 3, society, new_worlds, "Diplomatic Postures", no, -1
+"Orbital Tractor Beams", 2, physics, field_manipulation, , no, -1
+"Super-Transporters", 3, physics, particles, , no, -1
+"TR-590 X Tricorders", 3, society, biology, , no, -1
+"Ancestral Alloys", 2, engineering, industry, , no, -1
+"Ceremonial Armor", 3, society, military_theory, , no, -1
+"Historical Figure Cloning", 3, society, biology, , no, -1
+"Multispectral Emitters", 2, physics, particles, , no, -1
+"Surgical Alteration", 3, society, biology, , no, -1
+"Holographic Intelligence", 3, society, statecraft, , no, -1
+"Criminal Sciences", 2, society, statecraft, , no, -1
+"Eidetic Studies", 3, society, biology, , no, -1
+"Carrion Mining", 3, society, military_theory, , no, -1
+"Sporting Arenas", 2, engineering, materials, , no, -1
+"Decentralized Bureaucracy", 2, society, new_worlds, , no, -1
+"Task Databases", 2, physics, computing, , no, -1
+"Weapons Overcharge", 2, engineering, propulsion, , no, -1
+"Wartime Fabrication", 2, engineering, industry, , no, -1
+"Personnel Scanners", 2, physics, computing, , no, -1
+"Fast-Tracked Training", 1, society, military_theory, , no, -1
+"Gated Aptitude Testing", 2, society, military_theory, , no, -1
+"No-Win Scenarios", 3, society, military_theory, , no, -1
+"Civilian Spacefaring", 0, engineering, voidcraft, , yes, -1
+"Warp Slingshot", 4, engineering, propulsion, "Advanced Warp Nacelle", no, -1
+"Automated Politics", 1, society, statecraft, , no, -1
+"Party Diversification", 2, society, statecraft, "Automated Politics", no, -1
+"Habitat Creation", 2, engineering, industry, , no, -1
+"Habitat Upgrade I", 3, engineering, industry, "Habitat Creation", no, -1
+"Habitat Upgrade II", 4, engineering, industry, "Habitat Upgrade I", no, -1
+"California Schematics", 1, engineering, voidcraft, , no, -1
+"Nuclear Fusion Physics", 0, engineering, industry, , yes, -1
+"Antimatter Recycling", 1, engineering, industry, "Nuclear Fusion Physics", no, -1
+"Tetryon Containment", 3, engineering, industry, "Antimatter Recycling", no, -1
+"Anti-Tetryon Containment", 4, engineering, industry, "Tetryon Containment", no, -1
